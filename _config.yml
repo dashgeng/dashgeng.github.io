@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            清风
 tagline:          '技术博客'
-description:      '我是一个 iOS 项目研发工程师。'
+description:      '我是一名 iOS 软件研发工程师。'
 url:              http://dashgeng.github.io
 baseurl:          /
 

@@ -17,10 +17,10 @@ author:
   name:           '耿大帅 (DashGeng)'
   url:            http://dashgeng.github.io
 
-paginate:         1
+paginate:         5
 
 # Custom vars
-version:          
+version:          2.1.0
 
 github:
   repo:           https://github.com/dashgeng

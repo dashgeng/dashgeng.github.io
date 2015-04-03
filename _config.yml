@@ -20,7 +20,7 @@ author:
 paginate:         5
 
 # Custom vars
-
+version:          
 
 github:
   repo:           https://github.com/dashgeng

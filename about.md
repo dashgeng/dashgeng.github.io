@@ -1,30 +1,31 @@
 ---
 layout: page
-title: About
+title: 关于
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  每个人都有梦想，我也和你一样。曾经许许多多的梦想，都已沉入现实的海洋。
+
+现实给了我为数不多的选择～ 为了生活我舍去了那一个个的梦想。
+
+近 12 年对日软件外包的开发经历，我早已懂得了如何面对人生作出取舍。
+
+2014 年一个偶然也是必然的机会，让我走上了 iOS 的开发之路。
+
+我梦想着能在这里走向人生的辉煌！
+
+我要尽自己的努力，在 iOS 的世界里，实现自己的梦想。
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+### 个人简介
 
-There are currently two themes built on Poole:
+我是耿大帅（网名：清风 ／ DashGeng）
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+拥有 12 对日软件外包的开发经验，从事医疗和金融领域的软件开发工作。
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+目前正从事东芝医疗画像领域 (PASC) iOS 项目的研发。
 
-## Setup
+### 与我联系
 
-Some fun facts about the setup of this project include:
+[Email: dashgeng@163.com](mailto:dashgeng@163.com)
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!

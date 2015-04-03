@@ -4,16 +4,16 @@ title: 崭新的开始
 ---
 
 
-曾经在博客园和 CSDN 写过一些东西，但一直纠结于那无力吐槽的排版和内容的显示效果。
+曾经在[博客园](http://www.cnblogs.com)和 [CSDN](http://www.csdn.net) 写过一些东西，但一直纠结于那无力吐槽的排版和内容的显示效果。
 
-最近有时间在 GitHub 上 Fork 了一个别人的博客，决定以后就在这里安家。
+最近有时间在 [GitHub](https://github.com) 上 Fork 了一个别人的博客，决定以后就在这里安家。
 
 ### 新的起点
 
 
 2015 年注定是非同寻常的一年，苹果继续影响和改变着这个世界。
 
-Apple Watch， Swift 这些新产品，新技术令人夺目。
+[Apple Watch](http://www.apple.com/cn/watch/)， [Swift](http://www.apple.com/cn/swift/) 这些新产品，新技术令人夺目。
 
 我相信苹果一定会在这一年更进一步，为我们带来更加出色的产品和技术。
 

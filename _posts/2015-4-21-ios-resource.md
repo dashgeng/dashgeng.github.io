@@ -23,6 +23,9 @@ title: iOS 资源汇总
 #### 中文博客文章
 [Java转iOS-第一个项目总结](http://my.oschina.net/lujianing/blog/394367?p=6#comments)
 
+[iOS应用性能调优的25个建议和技巧](http://blog.jobbole.com/37984/)
+
+
 #### 常用开源库
 [Github-iOS备忘 : GitHub上的常用开源库总结](http://github.ibireme.com/github/list/ios/)
 

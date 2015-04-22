@@ -20,9 +20,9 @@ title: 清风注解 - Swift - 1
 
 * 用 ver 声明变量。
 
-    ``` Swift
+
 	var currentTime = "10 : 55"
-    ```
+
 
 #### 分号
 

@@ -18,7 +18,7 @@ let pi = 3.141592654
 
 * 用 ver 声明变量。
 ``` Swift
-var currentTime = "10 : 55"
+var currentTime = "12:06"
 ```
 
 #### 分号

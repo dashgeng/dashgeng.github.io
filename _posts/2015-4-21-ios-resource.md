@@ -13,12 +13,15 @@ title: iOS 资源汇总
 
 [鲁家宁个人小站](http://mvc.coding.io)
 
+[Why's Blog](http://blog.callmewhy.com)
+
 #### 中文技术专题网站
+[NSHipster 中文版](http://nshipster.cn)
+
 [objc中国](http://objccn.io)
 
 [Glow 技术团队博客](http://tech.glowing.com)
 
-[Why's Blog](http://blog.callmewhy.com)
 
 #### 中文博客文章
 [Java转iOS-第一个项目总结](http://my.oschina.net/lujianing/blog/394367?p=6#comments)

@@ -13,15 +13,13 @@ title: 清风注解 - Swift - 1
 * 用 let 声明常量。
 
 ``` Swift
-
 let pi = 3.141592654
-		
 ```
 
 * 用 ver 声明变量。
-
+``` Swift
 	var currentTime = "10 : 55"
-
+```
 
 #### 分号
 

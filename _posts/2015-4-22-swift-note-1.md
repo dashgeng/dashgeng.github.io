@@ -12,14 +12,13 @@ title: 清风注解 - Swift - 1
 * 常量和变量的使用原则是：先声明，后使用。
 * 用 let 声明常量。
 
-    ``` Swift
+``` Swift
 
-	let pi = 3.1415926
+let pi = 3.141592654
 		
-    ```
+```
 
 * 用 ver 声明变量。
-
 
 	var currentTime = "10 : 55"
 

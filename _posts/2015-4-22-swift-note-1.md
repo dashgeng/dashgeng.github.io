@@ -13,36 +13,36 @@ title: 清风注解 - Swift - 1
 * 常量和变量的使用原则是：先声明，后使用。
 * 用 `let` 声明常量。
 
-``` Swift
-let pi = 3.141592654
-```
+	``` Swift
+	let pi = 3.141592654
+	```
 
 * 用 `ver` 声明变量。
 
-``` Swift
-var currentTime = "12:06"
-```
+	``` Swift
+	var currentTime = "12:06"
+	```
 * 在一行中可以同时声明多个常量或变量，之间用逗号`，`隔开。
 
-``` Swift
-let a = 3, b = 4, c = 5
-var x = 10, y = 20, z = 15
-```
+	``` Swift
+	let a = 3, b = 4, c = 5
+	var x = 10, y = 20, z = 15
+	```
 * 在声明常量或变量时可以加上`类型标注(type annotation)`，说明常量或变量中要存储的值的类型。
 * 类型标注的添加方法是：在常量或变量名后面加上一个`冒号`和`空格`，然后加上`类型名称`。
 
-``` Swift
-let Name: String
-var Height: Int
-```
+	``` Swift
+	let Name: String
+	var Height: Int
+	```
 * 一般很少需要写类型标注，如果在声明常量或变量时赋了一个初始值，Swift 可以通过`类型推断`，自动推断出这个常量或变量的类型。
 * 常量和变量的命名可以包括 Unicode 字符。
 
-``` Swift
-var π = "pi"
-var 🐶 = "dog"
-var 中国 = "china"
-```
+	``` Swift
+	var π = "pi"
+	var 🐶 = "dog"
+	var 中国 = "china"
+	```
 * 常量和变量的命名不能包含数学符号，箭头，保留的（或者非法的）Unicode 码位，连线与制表符。
 * 常量和变量的命名不能以数字开头，但是可以在常量与变量名的其他地方包含数字。
 * 常量和变量的作用域内，不能使用相同的名字再次进行声明。
@@ -52,20 +52,20 @@ var 中国 = "china"
 * 只能使用相同类型的值改变原有变量值。
 * 可以使用 println 函数输出当前常量或变量的值。
 
-``` Swift
-println(currentTime)
-```
+	``` Swift
+	println(currentTime)
+	```
 * print 函数同样可以输出内容，与 println 唯一的区别是在输出内容最后不会换行。
 
-``` Swift
-println("My name is DashGeng. What's your name? ")
-```
+	``` Swift
+	println("My name is DashGeng. What's your name? ")
+	```
 * Swift 用`字符串插值(string interpolation)`的方式把常量名或变量名当作占位符加入到长字符串中，Swift 会用当前常量或变量值替换这些占位符。
 * 字符串插值的写法：将常量或变量名放入`圆括号 ( )`中，并在开括号前使用`反斜杠 \`将其转义。
 
-``` Swift
-println("The time now is \(currentTime).")
-```
+	``` Swift
+	println("The time now is \(currentTime).")
+	```
 
 #### 分号
 

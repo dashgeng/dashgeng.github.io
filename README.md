@@ -26,7 +26,7 @@ Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a pro
 - [Development](#development)
 - [Author](#author)
 - [License](#license)
-
+[测试](#测试)
 
 ## Usage
 
@@ -125,4 +125,5 @@ Hyde has two branches, but only one is used for active development.
 
 Open sourced under the [MIT license](LICENSE.md).
 
-<3
+## 测试
+* test

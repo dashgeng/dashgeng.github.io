@@ -103,8 +103,28 @@ title: 清风注解 - Swift - 1
 	```
 
 #### 整数
+* Swift 提供了8, 16, 32, 64位的有符号和无符号整数类型。
+* 有符号整数类型：Int8, Int16, Int32, Int64。
+* 无符号整数类型：UInt8, Uint16, Uint32, Uint64。
+* 整数类型的最大值和最小值可以使用`max`和`min`属性取得。
+
+	``` Swift
+	// minValue 为 0。
+	let minValue = UInt8.min
+	// maxValue 为 255。
+	let maxValue = UInt8.max
+	```
+* Swift 提供了一个特殊的整数类型`Int`，长度与当前平台的原生字长相同：
+** 在32位平台上，Int 和 Int32 长度相同。
+** 在64位平台上，Int 和 Int64 长度相同。
+* Swift 也提供了一个特殊的无符号整数类型`UInt`，长度与当前平台的原生字长相同：
+** 在32位平台上，UInt 和 UInt32 长度相同。
+** 在64位平台上，UInt 和 UInt64 长度相同。
+* 尽量不要使用 UInt，而使用 Int。统一使用 Int 可以提高代码的可复用性，避免不同类型数字之间的转换，并且匹配数字的类型推断。
 
 #### 浮点数
+* Swift 提供了表示32位浮点数的`Float`和表示64位浮点数的`Double`。
+* Float 至少有6位数字，Double 至少有15位数字。
 
 #### 类型安全和类型推断
 

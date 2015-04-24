@@ -28,11 +28,17 @@ title: iOS 资源汇总
 
 [iOS应用性能调优的25个建议和技巧](http://blog.jobbole.com/37984/)
 
+[Alamofire网络库基础教程](http://www.jianshu.com/p/f1208b5e42d9)
+
+[Alamofire网络库进阶教程](http://www.jianshu.com/p/30599f64a09c)
+
 
 #### 常用开源库
 [Github-iOS备忘 : GitHub上的常用开源库总结](http://github.ibireme.com/github/list/ios/)
 
 [AFNetworking : iOS网络请求组件](https://github.com/AFNetworking/AFNetworking)
+
+[Alamofire : AFNewworing的Swift版本](https://github.com/Alamofire/Alamofire)
 
 [FMDB : 封装了对sqlite数据库的操作](https://github.com/ccgus/fmdb)
 

@@ -97,6 +97,7 @@ title: 清风注解 - Swift - 1
 #### 分号
 * Swift 不强制要求每条语句的结尾处使用`分号 ;`，你也可以按照自己的习惯添加分号。
 * 一种特殊的情况是：当一行内写多条语句时，必须在前一个语句的结尾处添加分号。
+
 	``` Swift
 	let userEmail = "dashgeng@163.com"; println("my email is \(userEmail).")
 	```

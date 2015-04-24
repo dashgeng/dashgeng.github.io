@@ -35,7 +35,7 @@ title: 清风注解 - Swift - 1
 	let Name: String
 	var Height: Int
 	```
-* 一般很少需要写类型标注，如果在声明常量或变量时赋了一个初始值，Swift 可以通过`类型推断`，自动推断出这个常量或变量的类型。
+* 一般很少需要写类型标注，如果在声明常量或变量时赋了一个初始值，Swift 可以通过`类型推断 （type inference）`，自动推断出这个常量或变量的类型。
 * 常量和变量的命名可以包括 Unicode 字符。
 
 	``` Swift
@@ -111,13 +111,16 @@ title: 清风注解 - Swift - 1
 	``` Swift
 	// minValue 为 0。
 	let minValue = UInt8.min
+	
 	// maxValue 为 255。
 	let maxValue = UInt8.max
 	```
 * Swift 提供了一个特殊的整数类型`Int`，长度与当前平台的原生字长相同：
+
 ** 在32位平台上，Int 和 Int32 长度相同。
 ** 在64位平台上，Int 和 Int64 长度相同。
 * Swift 也提供了一个特殊的无符号整数类型`UInt`，长度与当前平台的原生字长相同：
+
 ** 在32位平台上，UInt 和 UInt32 长度相同。
 ** 在64位平台上，UInt 和 UInt64 长度相同。
 * 尽量不要使用 UInt，而使用 Int。统一使用 Int 可以提高代码的可复用性，避免不同类型数字之间的转换，并且匹配数字的类型推断。
@@ -127,6 +130,25 @@ title: 清风注解 - Swift - 1
 * Float 至少有6位数字，Double 至少有15位数字。
 
 #### 类型安全和类型推断
+* Swift 是一个类型安全 (type safe) 的语言。它会在编译代码时进行类型检查 (type checks)，并把不匹配的类型标记为错误。
+* 没有显示指定类型的常量，变量或表达式在编译代码时，Swift 会使用类型推断自动推断出它的类型。
+* 声明常量或变量并赋给它们一个`字面量(literal value)`(初值)时，即可触发类型推断。
+
+	``` Swift
+	// myAge 会被断测为 Int 类型
+	let myAge = 32
+	
+	// pi 会被推断为 Double 类型
+	let pi = 3.14159
+	
+	// anotherPi 会被推断为 Double 类型。
+	let anotherPi = 3 + 0.14159
+	```
+* Swift 类型推断规则：
+
+** 整型字面量总是被推断为 Int 类型。 
+** 浮点型字面量总是被推断为 Double 类型。
+** 如果表达式中同时出现了整数和浮点数，会被推断为 Double 类型。
 
 #### 数值型字面量
 

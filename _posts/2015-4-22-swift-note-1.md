@@ -270,6 +270,48 @@ title: 清风注解 - Swift - 1
 * 元组适合在临时组织值时使用，其并不适合创建复杂的数据结构。如果要创建的数据结构并不是临时使用，请使用类或结构体创建，而不是使用元组。
 
 #### 可选
+* 可选类型(optionals)用来处理值可能缺失的情况。
+* 可选类型表示：有值，等于 x；或者没有值
+* 可选类型写作`类型?`，例如：Int?。问号暗示包含的值是可选类型，也就是说可能包含值，也可能不包含值。
+* 使用`if`语句可以用来判断一个可选是否包含值。如果可选类型有值，结构为 true；如果没有值，结果为 false。
+* 当确定可选类型包含值后，可以在可选名字后面加一个`感叹号 !`来获取值。这被称作可选值的强制解析。
+
+	``` Swift
+	let possibleNumber = "123"
+	// toInt() 返回可选类型 Int?
+	let convertedNumber = possibleNumber.toInt()
+	if convertedNumber != nil 
+	{
+	    println("\(possibleNumber) has an integer value of \(convertedNumber!)")
+	}
+	```
+* 使用可选绑定(optional binding)来判断可选类型是否包含值，如果包含就把值赋给一个临时常量或变量。
+* 可选绑定可以用在`if`和`while`语句中。
+
+	``` Swift
+	if let actualNumber = possibleNumber.toInt() 
+	{
+	    println("\(possibleNumber) has an integer value of \(actualNumber)")
+	}
+	```
+* 可以使用 nil 给可选变量赋值，用来表示它没有值。
+* nil 不能用于非可选常量或变量。
+* 声明可选常量或变量时，如果没有赋值，Swift 会把常量或变量的值设置为 nil。
+
+	``` Swift
+	// surveyAnswer 被自动设置为 nil
+	var surveyAnswer: String?
+	```
+* 在 Swift 中 nil 不是指针，它是一个确定的值，用来表示值的缺失。任何类型的可选状态都可以被设置为 nil。
+* 如果一个可选类型的常量或变量在第一次被赋值之后，总会有值。可以声明成隐式解析可选类型，写作`类型!`，例如：Int!。
+* 隐式解析可选类型在使用时，无需在变量名之后加`感叹号 !`，它可以被当做非可选类型来使用，不需要每次使用解析来获取可选值。
+
+	``` Swift
+	let assumedString: String! = "An implicitly unwrapped optional string."
+	// 不需要使用感叹号
+	println(assumedString)
+	```
+* 如果一个变量在使用中可能变成 nil 的话，请不要使用隐式解析可选类型。
 
 #### 断言
 

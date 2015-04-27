@@ -219,7 +219,15 @@ title: 清风注解 - Swift - 1
     ```
 
 #### 布尔型
+* 布尔(Boolean)类型是 Swift 的基本数据类型。使用`Bool`关键字来定义。
+* 布尔值是指逻辑上的真或假。Swift 用`true`代表真值，`false`代表假值。
 
+	``` Swift
+	var isCancel: Bool = false
+	isCancel = true
+	```
+* Swift 中，如果在需要使用 Bool 类型的地方使用了非布尔值，Swift 的类型安全机制会报错。
+	
 #### 元组
 
 #### 可选

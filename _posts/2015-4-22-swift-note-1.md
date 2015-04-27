@@ -184,6 +184,27 @@ title: 清风注解 - Swift - 1
 	``` 
 
 #### 数值型类型转换
+* 不同类型的变量和常量可以存储不同范围的数字，如果数字超出了可存储的范围，编译时会报错。
+* 要将一种数字类型转换成另一种，就要用当前值来初始化一个期望类型的新数字。
+
+	``` Swift
+	let valueInt8: Int8 = 127
+	let valueInt16: Int16 = Int16(valueInt8)
+    ```
+* 表达式中不同类型的常量和变量必须显式转换为相同类型才能计算。
+
+	``` Swift
+	let towThousand: UInt16 = 2_000
+	let one: UInt8 = 1
+	let towThousandAndOne = towThousand + UInt16(one)
+    ```
+* 浮点数到整数的转换中，浮点值会被截取。
+* 计算表达式时，数字字面量可以直接与任意类型的值相结合，而无需显式转换类型。因为数字字面量本身没有明确的类型，它们的类型会被自动推断。
+
+	``` Swift
+	let count: Int16 = 500
+	let total: Int16 = count ＋ 1
+    ```
 
 #### 类型别名
 

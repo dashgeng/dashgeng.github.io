@@ -207,6 +207,16 @@ title: 清风注解 - Swift - 1
     ```
 
 #### 类型别名
+* 类型别名(type aliases)就是给现有类型定义另一个名字。使用`typealias`关键字来定义类型别名。
+
+	``` Swift
+	typealias AudioSample = UInt16
+    ```
+* 定义了一个类型别名之后，你可以在任何使用原始类型名称的地方使用别名。
+
+	``` Swift
+	var maxAmplitudeFound = AudioSample.min
+    ```
 
 #### 布尔型
 

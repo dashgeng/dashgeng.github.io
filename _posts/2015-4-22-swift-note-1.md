@@ -203,7 +203,7 @@ title: 清风注解 - Swift - 1
 
 	``` Swift
 	let count: Int16 = 500
-	let total: Int16 = count ＋ 1
+	let total: Int16 = count + 1
     ```
 
 #### 类型别名

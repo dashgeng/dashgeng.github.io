@@ -87,9 +87,7 @@ title: 清风注解 - Swift - 1
 	/* 
 	   这是一个
 	   多行注释块。
-	   
 	   // 嵌套一个单行注释。
-	   
 	   /* 嵌套一个
 	      多行注释块。 */
 	*/
@@ -112,7 +110,6 @@ title: 清风注解 - Swift - 1
 	``` Swift
 	// minValue 为 0。
 	let minValue = UInt8.min
-	
 	// maxValue 为 255。
 	let maxValue = UInt8.max
 	```
@@ -136,10 +133,8 @@ title: 清风注解 - Swift - 1
 	``` Swift
 	// myAge 会被断测为 Int 类型
 	let myAge = 32
-	
 	// pi 会被推断为 Double 类型
 	let pi = 3.14159
-	
 	// anotherPi 会被推断为 Double 类型。
 	let anotherPi = 3 + 0.14159
 	```
@@ -229,6 +224,49 @@ title: 清风注解 - Swift - 1
 * Swift 中，如果在需要使用 Bool 类型的地方使用了非布尔值，Swift 的类型安全机制会报错。
 	
 #### 元组
+* 元组(tuples)把多个值组合成一个复合值。元组内的值可以是任意类型，并不要求是相同类型。
+
+	``` Swift
+	// http404Error 的类型是 (Int, String)，值是 (404, "Not Found")
+	let http404Error = (404, "Not Found")
+	```
+* 可以将元组的内容分解(decompose)成单独的常量和变量。
+
+	``` Swift
+	let (statusCode, statusMessage) = http404Error
+	// 输出 "The status code is 404"
+	println("The status code is \(statusCode)")
+	// 输出 "The status message is Not Found"
+	println("The status message is \(statusMessage)")
+	```
+* 如果只需要一部分元组值，分解时可以把要忽略的部分用下划线`_`标记。
+
+	``` Swift
+	let (justTheStatusCode, _) = http404Error
+	// 输出 "The status code is 404"
+	println("The status code is \(justTheStatusCode)")
+	```
+* 元组中的元素可以通过下标来访问，下标从`0`开始。
+
+	``` Swift
+	// 输出 "The status code is 404"
+	println("The status code is \(http404Error.0)")
+	// 输出 "The status message is Not Found"
+	println("The status message is \(http404Error.1)")
+	```
+* 在定义元组时可以给单个元素命名，之后可以通过元素名称来获取或设置这些元素的值。
+
+	``` Swift
+	var http200Status = (statusCode: 200, description: "OK")
+	// 输出 "The status code is 200"
+	println("The status code is \(http200Status.statusCode)")
+	// 输出 "The status message is OK"
+	println("The status message is \(http200Status.description)")
+	// 使用元素名称改变元素的值
+	http200Status.statusCode = 300
+	// 输出 "The status code is 300"
+	println("The status code is \(http200Status.statusCode)")
+	```
 
 #### 可选
 

@@ -267,6 +267,7 @@ title: 清风注解 - Swift - 1
 	// 输出 "The status code is 300"
 	println("The status code is \(http200Status.statusCode)")
 	```
+* 元组适合在临时组织值时使用，其并不适合创建复杂的数据结构。如果要创建的数据结构并不是临时使用，请使用类或结构体创建，而不是使用元组。
 
 #### 可选
 

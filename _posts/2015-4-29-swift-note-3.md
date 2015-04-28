@@ -90,7 +90,7 @@ title: 清风注解 - Swift - 3 字符串和字符
 * 字符串通过加法运算符`+`相加在一起并创建一个新的字符串。
 
 	``` Swift
-	let string1 ＝ “hello”
+	let string1 = "hello"
 	let string2 = " there"
 	// welcome 现在等于 “hello there”
 	var welcome = string1 + string2

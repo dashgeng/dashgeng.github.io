@@ -166,7 +166,49 @@ title: 清风注解 - Swift - 3 字符串和字符
 	let whispered = normal.lowercaseString
 	```
 #### Unicode
-* 
+* Swift 中可以利用 for-in 来对字符串进行遍历，从而以Unicode字符的方式访问每一个字符值。
 
+	``` Swift
+	let dogString = "Dog!🐶"
+	for codeUnit in dogString {
+		print("\(codeUnit)")
+	}
+	print("\n")
+	// 输出结果: Dog!🐶
+	```
+* Swift 中能够以其它三种 Unicode 兼容的方式访问字符串的值。
+ * UIF-8 代码单元集合：利用字符串的 utf8 属性进行访问
+ 
+	``` Swift
+	let dogString = "Dog!🐶"
+	for codeUnit in dogString.utf8 {
+		print("\(codeUnit)")
+	}
+	print("\n")
+	// 输出结果: 68 111 103 33 240 159 144 182
+	// 其中 68 111 103 33 代表 Dog!，240 159 144 182 代表 🐶
+	```
+ * UIF-16 代码单元集合：利用字符串的 utf16 属性进行访问
+ 
+	``` Swift
+	let dogString = "Dog!🐶"
+	for codeUnit in dogString.utf16 {
+		print("\(codeUnit)")
+	}
+	print("\n")
+	// 输出结果: 68 111 103 33 55357 56374
+	// 其中 68 111 103 33 代表 Dog!，55357 56374 代表 🐶
+	```
+ * 21 位的 Unicode 标量值集合：利用字符串的 unicodeScalars 属性进行访问
+ 
+	``` Swift
+	let dogString = "Dog!🐶"
+	for codeUnit in dogString {
+		print("\(codeUnit)")
+	}
+	print("\n")
+	// 输出结果: 68 111 103 33 1285054
+	// 其中 68 111 103 33 代表 Dog!，1285054 代表 🐶
+	```
 
 -- End --

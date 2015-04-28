@@ -6,7 +6,7 @@ title: 清风注解 - Swift
 
 ### 目录索引
 
-1. 基础知识
+1. [基础知识](http://dashgeng.github.io/2015/04/28/swift-note-1/)
  * 常量和变量
  * 注释
  * 分号

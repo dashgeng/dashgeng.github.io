@@ -166,7 +166,45 @@ title: 清风注解 - Swift - 2 基本运算符
 	``` 
 
 #### 区间运算符
+* 闭区间运算符`a...b`：定义一个包含从 a 到 b(包括 a 和 b)的所有值的区间，b 必须大于 a。
+* 闭区间运算符适用于迭代一个区间的所有值。
+
+	``` Swift
+	for index in 1...5 {
+		println("\(index) * 5 = \(index * 5)")
+	}
+	// 输出结果如下：
+	// 1 * 5 = 5
+	// 2 * 5 = 10
+	// 3 * 5 = 15
+	// 4 * 5 = 20
+	// 5 * 5 = 25
+	``` 
+* 半开区间运算符`a..<b`：定义一个从 a 到 b，但不包括 b 的区间。之所以称为半闭区间，是因为该区间包含第一个值而不包括最后一个值。
+* 半开区间适用于遍历从 0 开始的列表（如数组）。
 
 #### 逻辑运算符
+* 逻辑运算符的操作对象是逻辑布尔值。
+* Swift 支持的逻辑运算符：
+ * 逻辑非`!a`
+ * 逻辑与`a && b`
+ * 逻辑或`a || b`
+* 逻辑非运算对一个布尔值取反，它是一个前置运算符，且与操作数之间不能有空格。
+* 逻辑与表示只有 a 和 b 的值都为 true 时，整个表达式的值才为 true。只要有一个值为 false，整个表达式的值就为 false。
+* 逻辑与采用短路计算(short-circuit evaluation)，即如果第一个表达式的值为 false，将不再计算第二个表达式的值。
+* 逻辑或表示两个逻辑表达式中有一个为 true 时，整个表达式的值就为 true。两个逻辑表达式都为 false 时，整个表达式的值才为 false。
+* 逻辑或同样采用短路计算，即如果第一个表达式的值为 true，将不再计算第二个表达式的值。
+* 在一个复杂表达式中，使用括号`()`来明确优先级，会使逻辑更明确。
+
+	``` Swift
+	let enteredDoorCode = true
+	let passedRetinaScan = false
+	let hasDoorKey = false
+	let knowsOverridePassword = true
+	if (enteredDoorCode && passedRetinaScan) ||
+		hasDoorKey || knowsOverridePassword {
+		println("Welcome!")
+	}
+	``` 
 
 -- End --

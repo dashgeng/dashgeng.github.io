@@ -6,7 +6,7 @@ title: 清风注解 - Swift
 
 ### 目录索引
 
-1. [基础知识](http://dashgeng.github.io/2015/04/28/swift-note-1/)
+1. [基础知识](http://dashgeng.github.io/2015/04/22/swift-note-1/)
  * 常量和变量
  * 注释
  * 分号
@@ -30,7 +30,7 @@ title: 清风注解 - Swift
  * 空合运算符
  * 区间运算符
  * 逻辑运算符
-3. [字符串和字符](http://dashgeng.github.io/2015/04/28/swift-note-3/)
+3. [字符串和字符](http://dashgeng.github.io/2015/04/29/swift-note-3/)
  * 字符串字面量
  * 初始化空字符串
  * 字符串可变性

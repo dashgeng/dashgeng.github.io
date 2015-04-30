@@ -42,8 +42,9 @@ title: 清风注解 - Swift
  * 比较字符串
  * 字符串大小写
  * Unicode
-4. 集合类型
+4. [集合类型](http://dashgeng.github.io/2015/04/30/swift-note-4/)
  * 数组
+ * 集合
  * 字典
  * 集合的可变性
 5. 流程控制

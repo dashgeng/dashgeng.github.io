@@ -66,12 +66,12 @@ title: 清风注解 - Swift - 4 集合类型
 * 可以通过下标来改变某个已经存在的数据项的值。
 
 	``` Swift
-	fruitList[0] = “cherry”
+	fruitList[0] = "cherry"
 	```
 * 可以通过下标来一次改变一系列数据项的值，即使新数据和原有数据的数量是不一样的。
 
 	``` Swift
-	fruitList[0] = “cherry”
+	fruitList[0] = "cherry"
 	```
 
 * 当`count`的值为 0 时，最大索引值为 -1。
@@ -83,12 +83,12 @@ title: 清风注解 - Swift - 4 集合类型
 * 可以通过数组的`removeAtIndex`方法来移除数组中的某一项，并返回被移除的数据项。
 
 	``` Swift
-	let removeItem ＝ fruitList.removeAtIndex(0)
+	let removeItem = fruitList.removeAtIndex(0)
 	```
 * 可以通过数组的`removeLast`方法移除数组的最后一项。
 
 	``` Swift
-	let removeLastItem ＝ fruitList.removeLast()
+	let removeLastItem = fruitList.removeLast()
 	```
 * 可以通过使用 for-in 循环来遍历数组中所有的数据项。
 
@@ -116,7 +116,7 @@ title: 清风注解 - Swift - 4 集合类型
 
 	``` Swift
 	// 现在 foodList 数组内容有值了
-	foodList.append(“blueberry”)
+	foodList.append("blueberry")
 	// 使用空数组语句把 foodList 数组设置为空
 	foodList = []
 	```

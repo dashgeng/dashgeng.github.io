@@ -144,7 +144,7 @@ title: 清风注解 - Swift - 4 集合类型
 
 #### 集合
 * 当数据项的值必须是唯一的，或者	数据项的顺序并不重要时，我们使用集合当作数组的另一种形式来使用。
-* Swift 中集合类型被写为`Set<someType`，这里的 SomeType 表示 Set 中允许存储的类型。集合没有类似数组的简化形式。
+* Swift 中集合类型被写为`Set<someType>`，这里的 SomeType 表示 Set 中允许存储的类型。集合没有类似数组的简化形式。
 * 可以通过构造器语法创建一个特定类型的空集合。
 
 	``` Swift
@@ -192,7 +192,7 @@ title: 清风注解 - Swift - 4 集合类型
 * 可以通过集合的`remove(_:)`方法删除一个元素。如果传入的值是集合的一个元素，则删除该元素，并返回被删除的元素值；否则，如果集合不包含该值，返回 nil。
 
 	``` Swift
-	if let removedGenre = favoriteGenres.remove(“Rock”) {
+	if let removedGenre = favoriteGenres.remove("Rock") {
 		println("\(removedGenre)? I'm over it.")
 	} else {
 		println("I never much cared for that.")
@@ -206,7 +206,7 @@ title: 清风注解 - Swift - 4 集合类型
 * 可以通过`contains(_:)`方法检查集合中是否包含一个特定的值。
 
 	``` Swift
-	if favoriteGenres.contains(“Funk”) {
+	if favoriteGenres.contains("Funk") {
 		println("I get up on the good foot.")
 	} else {
 		println("It's too funky in here.")

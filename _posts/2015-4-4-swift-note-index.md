@@ -47,7 +47,7 @@ title: 清风注解 - Swift
  * 集合
  * 字典
  * 集合的可变性
-5. 流程控制
+5. [流程控制](http://dashgeng.github.io/2015/05/11/swift-note-5/)
  * For 循环
  * While 循环
  * 条件语句

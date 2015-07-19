@@ -6,10 +6,18 @@ title: 目录与Tag
 ## 日期分类
 
 {% for post in site.posts %}
-  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+  {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+  {% if currentyear != year %}
+   {% unless forloop.first %}</ul>{% endunless %}
+<h2>{{ currentyear }}</h2>
+<ul>
+    {% capture year %}{{currentyear}}{% endcapture %} 
+  {% endif %}
+<li>{{post.date | date: "%b %-d"}} &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
+{% if site.posts.size != 0 %}</ul>{% endif %}
 
-## Tag 分类
+## 标签分类
 <div id="archives">
 {% for tag in site.tags %}
   <div class="archive-group">

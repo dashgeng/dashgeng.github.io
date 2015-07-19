@@ -1,6 +1,10 @@
 ---
 layout: post
 title: iOS 资源汇总
+tags: 
+- iOS
+- Swift
+- Objective-C
 ---
 
 

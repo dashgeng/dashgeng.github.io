@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 崭新的开始
+tags: 
+- 人在江湖
 ---
 
 

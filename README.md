@@ -1,10 +1,10 @@
-# 清风的技术博客
+# 清风的博客
 
-个人技术博客，专注 iOS 项目的研发。
+个人博客~~~
 
 URL: [dashgeng.github.io](http://dashgeng.github.io)
 
-Email: [dashgeng@163.com](dashgeng@163.com)
+Email: [dashgeng@qq.com](dashgeng@qq.com)
 
 ---
 
@@ -124,6 +124,3 @@ Hyde has two branches, but only one is used for active development.
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
-
-## 测试
-* test

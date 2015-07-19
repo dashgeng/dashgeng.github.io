@@ -32,5 +32,5 @@ title: 关于
 
 ### 与我联系
 
-[Email: dashgeng@163.com](mailto:dashgeng@163.com)
+[Email: dashgeng@qq.com](mailto:dashgeng@qq.com)
 

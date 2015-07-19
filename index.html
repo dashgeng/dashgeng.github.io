@@ -14,7 +14,7 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }} &nbsp; <a href="{{ post.url }}#disqus_thread"></a></span>
 
-	{{ post.content | truncatewords:99}}
+	{{ post.content | truncatewords:50}}
 		<br><a href="{{ post.url }}">继续阅读</a><br><br>
   </div>
   {% endfor %}

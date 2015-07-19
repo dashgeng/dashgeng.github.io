@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archive
+title: 目录
 published: true
 ---
 

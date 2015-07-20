@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 文章归档
+title: 归档
 ---
 
 ## 标签分类

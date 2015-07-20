@@ -1,23 +1,9 @@
 ---
 layout: page
-title: 列表
+title: 文章归档
 ---
 
-## 日期列表
-
-{% for post in site.posts %}
-  {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
-  {% if currentyear != year %}
-   {% unless forloop.first %}</ul>{% endunless %}
-<h2>{{ currentyear }}</h2>
-<ul>
-    {% capture year %}{{currentyear}}{% endcapture %} 
-  {% endif %}
-<li>{{post.date | date: "%b %-d"}} &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-{% if site.posts.size != 0 %}</ul>{% endif %}
-
-## 标签列表
+## 标签分类
 <div id="archives">
 {% for tag in site.tags %}
   <div class="archive-group">

@@ -15,7 +15,7 @@ comments: true
 
     <span class="post-date">{{ post.date | date_to_string }} &nbsp; <a href="{{ post.url }}#disqus_thread"></a></span>
 
-	{{ post.content |slice:10}}...>
+	{{ post.content | truncatewords:10}}...>
   </div>
   {% endfor %}
 </div>

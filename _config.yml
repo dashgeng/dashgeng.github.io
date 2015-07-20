@@ -8,8 +8,8 @@ relative_permalinks: true
 
 # Setup
 title:            清风
-tagline:          '技术博客'
-description:      '目前从事 iOS 软件研发工作。'
+tagline:          '博客'
+description:      '非淡泊无以明志，非宁静无以致远～'
 avatar:           http://dashgeng.github.io/public/img/me.jpg
 url:              http://dashgeng.github.io
 baseurl:          /

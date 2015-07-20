@@ -6,3 +6,19 @@
 	-moz-border-radius: 150px;
 	background: url(/public/img/me.jpg) no-repeat;
 }
+
+/*////////////////////*/
+sup, sub {
+  line-height: 0; /* do not interfere with text height */
+}
+
+.sidebar-about-avatar {
+  margin: auto;
+  width: 6.5rem; /* width of title */
+}
+
+@media (min-width: 48em) {
+  .sidebar-about-avatar {
+    margin: 0;
+  }
+}

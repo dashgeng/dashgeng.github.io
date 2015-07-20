@@ -9,6 +9,9 @@ comments: true
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url }}">
+        {% if post.image.teaser %}
+          <img class="post-teaser" src="{{ post.image.teaser }}">
+        {% endif %}
         {{ post.title }}
       </a>
     </h1>

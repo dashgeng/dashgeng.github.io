@@ -10,6 +10,7 @@ relative_permalinks: true
 title:            清风
 tagline:          '技术博客'
 description:      '目前从事 iOS 软件研发工作。'
+avatar:           http://dashgeng.github.io/public/img/me.jpg
 url:              http://dashgeng.github.io
 baseurl:          /
 

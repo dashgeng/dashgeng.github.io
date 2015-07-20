@@ -17,7 +17,7 @@ sup, sub {
   width: 6.5rem; /* width of title */
 }
 
-@media (min-width: 48em) {
+@media (min-width: 96em) {
   .sidebar-about-avatar {
     margin: 0;
   }

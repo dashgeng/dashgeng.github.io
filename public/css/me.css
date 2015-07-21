@@ -22,3 +22,17 @@ sup, sub {
     margin: 0;
   }
 }
+
+.company_title{
+	font-weight: 600;
+	font-size: 25px;
+	color: blue;
+}
+.company_time{
+	font-weight: 200;
+	font-size: 15px;
+	color:grey;
+}
+#my-post-title{
+	color: rgb(162,148,94);
+}

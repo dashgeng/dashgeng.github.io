@@ -36,3 +36,12 @@ sup, sub {
 #article-title{
 	color: rgb(162,148,94);
 }
+
+.sidebar-links {
+  padding-left: 0;
+}
+
+.sidebar-links li {
+  display: inline-block;
+  width: 50px;
+}

@@ -1,9 +1,8 @@
 ---
 layout: page
-title: 归档
+title: 标签
 ---
 
-## 标签分类
 <div id="archives">
 {% for tag in site.tags %}
   <div class="archive-group">

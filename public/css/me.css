@@ -23,12 +23,12 @@ sup, sub {
   }
 }
 
-.company_title{
+.article-title{
 	font-weight: 600;
 	font-size: 25px;
 	color: blue;
 }
-.company_time{
+.article-time{
 	font-weight: 200;
 	font-size: 15px;
 	color:grey;

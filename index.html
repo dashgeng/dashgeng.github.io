@@ -7,8 +7,8 @@ comments: true
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    <h1 class="article-title">
-      <a href="{{ post.url }}">
+    <h1 class="post-title">
+      <a href="{{ post.url }}" id="article-title">
         {% if post.image.teaser %}
           <img class="post-teaser" src="{{ post.image.teaser }}">
         {% endif %}

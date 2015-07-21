@@ -1,8 +1,8 @@
 # 清风的博客
 
-个人博客~~~
+~~~个人博客~~~
 
-URL: [dashgeng.github.io](http://dashgeng.github.io)
+URL: [dashgeng.github.io](http://www.dashgeng.com)
 
 Email: [dashgeng@qq.com](dashgeng@qq.com)
 

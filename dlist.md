@@ -1,9 +1,7 @@
 ---
 layout: page
-title: 日期列表
+title: 归档
 ---
-
-## 日期列表
 
 {% for post in site.posts %}
   {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}

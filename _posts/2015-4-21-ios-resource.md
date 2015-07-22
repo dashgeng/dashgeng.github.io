@@ -50,11 +50,28 @@ tags:
 
 [SDWebImage : 用户在本地缓存加载的网络图片](https://github.com/rs/SDWebImage)
 
-
+#### 中文资源
+[中文 iOS/Mac 开发博客列表](https://github.com/tangqiaoboy/iOSBlogCN)
 
 ### Swift 相关
+#### Swift技术专题网站
+[苹果 Swift 官方站点](https://developer.apple.com/swift/)
+
 #### 中文技术专题网站
 [Swifter](http://swifter.tips)
+
+#### 相关资源
+[The Swift Programming Language](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/)
+
+[Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/)
+
+[Swift Standard Library Reference
+](https://developer.apple.com/library/prerelease/ios/documentation/General/Reference/SwiftStandardLibraryReference/index.html)
+
+#### 中文资源
+[Swift程序设计语言中文版](https://github.com/numbbbbb/the-swift-programming-language-in-chinese)
+
+[Using Swift with Cocoa and Objective-C中文手册](https://github.com/CocoaChina-editors/Welcome-to-Swift/blob/master/UsingSwiftwithCocoaandObjective-C中文手册.md)
 
 ### Objective-C 相关
 

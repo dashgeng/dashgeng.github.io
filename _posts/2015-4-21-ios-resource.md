@@ -13,9 +13,13 @@ tags:
 
 [OneV's Den](http://onevcat.com)
 
+[南峰子的技术博客](http://southpeak.github.io)
+
 [鲁家宁个人小站](http://mvc.coding.io)
 
 [Why's Blog](http://blog.callmewhy.com)
+
+[伯恩的遗产](http://www.jianshu.com/users/5acac5529187/latest_articles)
 
 #### 中文技术专题网站
 [NSHipster 中文版](http://nshipster.cn)

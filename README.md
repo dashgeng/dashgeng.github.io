@@ -9,7 +9,7 @@ Email: [dashgeng@qq.com](dashgeng@qq.com)
 # Swift Discovery
 这是一个从 Swift 语言基础语法开始，发现与探索 Swift 语言的一段历程。
 
-- [发现](#discovery)
+- [发现](#发现)
 - [探索](#探索)
 - [开源协议](#开源协议)
 

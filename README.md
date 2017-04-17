@@ -6,6 +6,7 @@ URL: [dashgeng.github.io](http://www.dashgeng.com)
 
 Email: [dashgeng@qq.com](dashgeng@qq.com)
 
+[License](#License)
 ---
 
 # Hyde

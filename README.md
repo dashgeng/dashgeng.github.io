@@ -9,6 +9,7 @@ Email: [dashgeng@qq.com](dashgeng@qq.com)
 # Swift Discovery
 这是一个从 Swift 语言基础语法开始，发现与探索 Swift 语言的一段历程。
 
+- [要求](#要求)
 - [发现](#发现)
 - [探索](#探索)
 - [开源协议](#开源协议)
@@ -17,7 +18,7 @@ Email: [dashgeng@qq.com](dashgeng@qq.com)
 - Xcode 8.3+
 - Swift 3.1
 
-# Discovery 发现
+# 发现
 ## 清风注解 Swift
 ### 目录
 - [x] Swift 初见
